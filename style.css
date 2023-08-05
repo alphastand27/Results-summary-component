@@ -1,0 +1,217 @@
+body{
+    Font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 21%;
+    width: 45rem;
+    min-height: 30rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 4px 4px 10px #00000023;
+    border-radius: 7%;
+}
+
+#graphic{
+    width: 20em;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 7%;
+}
+
+#result{
+    color: hsla(0, 0%, 100%, 0.562);
+    margin: 15% 35% 0% 35%;
+}
+
+#figure{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 50%;
+    min-height: 38%;
+    margin: 38px 25px 55px 93px;
+}
+
+#score{
+    color: hsl(0, 0%, 100%);
+    margin: 20% 0% -3% 30%;
+    font-size: 70px;
+}
+
+#percentage{
+    color: hsla(0, 0%, 100%, 0.507);
+    margin: 0% 37%;
+    font-size: medium;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    margin: -10% 0% 0% 40%;
+}
+
+#student_relation{
+    color: hsla(0, 0%, 100%, 0.562);
+    margin: 2% 0% 0% 2%;
+    padding: 0% 15% 0% 15%;
+    text-align: center;
+}
+
+#summary{
+    margin: 18% 0% 0% 20%;
+}
+
+div{
+    display: flex;
+    direction: row;
+    margin: 10% 0% 0% 20%;
+    width: 260px;
+    max-height: 45px;
+    border-radius: 8px;
+}
+
+#red{
+    color: hsl(0, 100%, 63%);
+    background-color: hsla(0, 100%, 70%, 0.11);
+} 
+
+#yellow{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 70%, 0.11);
+} 
+
+#green{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 70%, 0.11);
+} 
+
+#blue{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 70%, 0.11);
+}
+
+img{
+    margin: 0% 1% 0% 7%;
+}
+
+.area {
+    margin: 4% 0% 0% 3%;
+}
+
+.mark{
+    color: black;
+    align-self: center;
+    margin: 0% 2% 0% 26%;
+}
+
+#green .mark {
+    margin: 0% 2% 0% 32%;
+}
+
+#blue .mark {
+    margin: 0% 2% 0% 34%;
+}
+
+.full_percentage{
+    color: rgba(0, 0, 0, 0.527);
+    align-self: center;
+}
+
+button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    min-height: 10%;
+    border: none;
+    border-radius: 25px;
+    margin: 13% 0% 0% 20%;
+    font-size: 102%;
+}
+
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+        background-color: black;
+    } 
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0% 25%;
+        width: 21.4rem;
+        min-height: 47rem;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    #graphic{
+        width: 19em;
+        min-height: 18em;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 0;
+        border-bottom-left-radius: 7%;
+        border-bottom-right-radius: 7%;
+    }
+
+    #result{
+        margin: 6% 35% 0% 35%;
+        font-size: large;
+        text-align: center;
+    }
+    
+    #figure{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        width: 35%;
+        height: 120px;
+        margin: 25px 0px 55px 112px;
+    }
+    
+    #score{
+        margin: 19% 0% -2% 30%;
+        font-size: 45px;
+    }
+    
+    #percentage{
+        margin: 0% 28%;
+        font-size: small;
+        text-align: center;
+    }
+    
+    h2{
+        margin: -10% 0% 0% 42%;
+        font-size: larger;
+    }
+    
+    #student_relation{
+        font-size: 80%;
+        margin: 2% 0% 0% 0%;
+    }
+
+    #summary{
+        margin: 8% 0% 0% 8%;
+        font-size: large;
+    }
+    
+    div{
+        margin: 8% 0% 0% 8%;
+        width: 290px;
+        max-height: 43px;
+        border-radius: 8px;
+    }
+
+    button{
+        width: 85%;
+        min-height: 43px;
+        margin: 10% 0% 0% 8%;
+        font-size: 100%;
+    }   
+}
